@@ -66,7 +66,7 @@ public class ApplicationContextExtendsFindTest {
             return new RateDiscountPolicy();
         }
 
-        @Bean
+        @Bean //빈 조회
         public DiscountPolicy fixDiscountPolicy(){
             return new FixDiscountPolicy();
         }
