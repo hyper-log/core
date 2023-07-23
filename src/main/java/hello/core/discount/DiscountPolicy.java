@@ -5,7 +5,7 @@ import hello.core.member.Member;
 public interface DiscountPolicy {
 
     /*
-    @Return 할인 대상 금액
+    @Return 할인 대상 금액 ss
      */
     int discount(Member member, int price);
 }
